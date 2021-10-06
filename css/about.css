@@ -405,18 +405,28 @@
 
 /*learn*/
 /*employment*/
-#employment{
-    background: #ffffff;
+.img{
+    background: url("../img/Rectangle 4.png") no-repeat center/cover;
     width: 100%;
-    min-height: 100vh;
+    position: absolute;
+    height: 100vh;
+    margin-top: -818.5px;
+}
+#employment{
+    background: url("../img/Rectangle 4.jpg") no-repeat center/cover;
+    width: 100%;
+    min-height: 70vh;
+    z-index: 2;
+    margin-top:750px;
 }
 .employment__title{
-    margin-top: 150px;
+    margin-top: -700px;
     font-size: 30px;
     line-height: 32px;
     font-weight: 300;
     color: #50667b;
     margin-bottom: 24px;
+    z-index: 2;
 }
 .employment__desc{
     font-weight: 400;
@@ -426,6 +436,7 @@
 }
 .employment__box{
     display: flex;
+    z-index: 2;
     margin-left: -30px;
 }
 .employment__box a{
@@ -436,6 +447,7 @@
     width: 180px;
     text-decoration: none;
     text-align: center;
+    z-index: 2;
     padding: 10px 0 12px;
     margin-left: 30px;
     margin-top: 24px;
@@ -447,23 +459,26 @@
     position: relative;
     width:700px;
     margin-left: -30px;
-    margin-top: -30px;
+    margin-top: -1208.5px;
 }
 .employment__block__titles{
+    margin-top: -200px;
     display: flex;
+    z-index: 2;
     flex-direction: column;
     align-items: center;
-    margin-top: 130px;
 }
 .employment__block__titles h1{
     font-size: 36px;
     line-height: 32px;
     font-weight: 200;
+    z-index: 2;
     color: #50667b;
 }
 .employment__block__titles p{
     width: 780px;
     font-weight: 200;
+    z-index: 2;
     margin-top: 30px;
     text-align: center;
 }
@@ -483,3 +498,145 @@
 }
 
 /*employment*/
+/*learn___about*/
+#learn__about{
+    background: white;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 3;
+}
+.learn__img{
+    position: absolute;
+    z-index: 1;
+    margin-top: -545px;
+    width: 100%;
+    height: 600px;
+    background: url("../img/Group 2.png")no-repeat center/cover;
+}
+.learn__about_title{
+    display: flex;
+    justify-content: center;
+}
+.learn__about_title h1{
+    font-weight: 300;
+    color: #50667b;
+    font-size: 52px;
+    line-height: 62px;
+    margin-top: 100px;
+}
+.l_a_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+.l_a_block_img{
+    background: #f4f5fa;
+    width: 174px;
+    height: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.l_a_block_title p{
+    color: #2c2d30;
+    font-size: 16px;
+    width: 370px;
+    font-weight: 200;
+
+    line-height: 24px;
+}
+.l_a_block_title h3{
+    font-weight: 400 ;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffa64b;
+    margin-bottom: 24px;
+}
+.learn__about__box img{
+    width: 100%;
+    height: 100%;
+    z-index: 2 ;
+    position: absolute;
+}
+.learn__about__box{
+    width: 570px;
+    height: 330px;
+    position: relative;
+    background: rgb(203, 144, 87);
+    margin-top: 80px;
+    border-radius: 2px;
+    margin-left: 90px;
+}
+.learn__about__box:before{
+    position: absolute;
+    content:'';
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    background: #ffa64b;
+    opacity: 0.3;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.learn__about__box:after{
+    left: 0;
+    top: 0;
+    position: absolute;
+    content:'';
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    background: #ffa64b;
+    opacity: 0.3;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+
+.learn__about__box1 img{
+    width: 100%;
+    height: 100%;
+    z-index: 2 ;
+    position: absolute;
+}
+.learn__about__box1{
+    width: 570px;
+    height: 330px;
+    position: relative;
+    background: rgb(203, 144, 87);
+    margin-top: 80px;
+    border-radius: 2px;
+}
+.learn__about__box1:before{
+    position: absolute;
+    content:'';
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    background: #8d4bff;
+    opacity: 0.3;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.learn__about__box1:after{
+    left: 0;
+    top: 0;
+    position: absolute;
+    content:'';
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    background: #8d4bff;
+    opacity: 0.3;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.color{
+    color:#8d4bff;
+}
+
+
+/*learn___about*/
