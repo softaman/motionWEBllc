@@ -10,14 +10,24 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/about.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index_media.css">
+    <link rel="stylesheet" href="./css/about.media.css">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 <header id="header">
     <div class="header__nav">
-        <div><a href="http://localhost:63342/MotionWebLLc/index.html?_ijt=ub64rlipkag2egsl34a3cs5dt7&_ij_reload=RELOAD_ON_SAVE">        <img src="img/logo.svg" alt="">
-        </a></div>
+        <div class="header__log">
+            <a href="http://localhost:63342/MotionWebLLc/index.html?_ijt=ub64rlipkag2egsl34a3cs5dt7&_ij_reload=RELOAD_ON_SAVE">
+                <img src="img/logo.svg" alt="">
+            </a>
+        </div>
         <div class="nav__menu">
             <div class="menu__links">
                 <button onclick="menuFunction()" class="menu__btn">Биздин курстар <i class="fas fa-sort-down"></i>
@@ -43,8 +53,8 @@
 <section id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div><h1 class="about__title"><b class="about__title__b">GeekBrains —</b> Образовательный портал
+            <div class="titles__hero col-lg-6 col-md-12 col-sm-12  col-xl-6 col-xxl-6">
+                <div><h1 class="about__title"><b class="about__title__b">Motion-Web</b> Образовательный портал
                 </h1>
                 </div>
                 <p class="about__desc">Мы учим людей с нуля осваивать программирование, веб-дизайн и маркетинг. Проводим
@@ -52,15 +62,15 @@
                     компаниями по трудоустройству и непрерывно тестируем новые методики для поднятия эффективности
                     обучения. </p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6  col-xl-6 col-xxl-6">
                 <img class="about__img"
                      src="./img/laptop-ec237359f35a1f683e8a99ccc75427655de967ccf37354b0df1f9db6b70c6f8f.png" alt="">
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12  ">
                 <div class="about__block">
-                    <h1 class="about__title2">Почему мы делаем <br>GeekBrains</h1>
+                    <h1 class="about__title2">Почему мы делаем <br>Motion-Web</h1>
                     <div class="about__desc2">
                         <p>Наблюдая оторванность современной системы образования от реальных потребностей рынка труда,
                             мы просто не могли не создать этот портал. Так в 2010г. появился проект «Школа
@@ -80,17 +90,20 @@
 <section id="about2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12   ">
                 <p class="about2__title">Наша цель − ваше трудоустройство</p>
                 <p class="about2__desc"> Мы привязали систему мотивации сотрудников и преподавателей к результатам
                     студентов. Поэтому мы совершенствуем наше обучение каждый день и сами с удовольствием приглашаем
                     выпускников на работу. </p>
                 <a class="about2__btn">Истории успеха</a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6  col-md-6 col-sm-12 col-xl-6 col-xxl-6">
                 <div class="about2__block">
                     <div class="about2__block__img">
                     </div>
+                </div>
+                <div class="about2__block2">
+                    Click for Video
                 </div>
             </div>
         </div>
@@ -99,7 +112,7 @@
 <section id="hero3">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6  col-md-6 col-sm-12  ">
                 <div class="hero3__block">
                     <h1 class="hero3__title">Распределение оценок</h1>
                     <div class="hero3__block__titles">
@@ -107,28 +120,31 @@
                         <p>940627 оценок</p>
                     </div>
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6  col-md-6 col-sm-6 ">
                             <div class="box">
-                                <div class="hero3__box">
-                                    <p>4.5</p>
-                                </div>
-                                <h4 class="hero3__box__title"> Программа </h4>
+                                <svg class="hero3__box" width="130" height="130" fill="transparent">
+                                    <circle class="hero3__box1" stroke="red" stroke-width="3" cx="60" cy="60" r="50">
+                                    </circle>
+                                    <p class="hero3__box2">4.5</p>
+                                </svg>
 
+                                <h4 class="hero3__box__title"> Программа </h4>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6  col-md-6 col-sm-6  col-xl-6 col-xxl-6">
                             <div class="box">
-                                <div class="hero3__box">
-                                    <p>4.8</p>
-                                </div>
+                                <svg class="hero3__box" width="130" height="130" fill="transparent">
+                                    <circle class="hero3__boxP" stroke="red" stroke-width="3" cx="60" cy="60" r="50">
+                                    </circle>
+                                    <p class="hero3__box2">4.8</p>
+                                </svg>
                                 <h4 class="hero3__box__title"> Преподаватели </h4>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6  col-md-6 col-sm-12  col-xl-6 col-xxl-6">
                 <div class="hero3__block2">
                     <h4>Особенности обучения</h4>
                     <h1>Честность и открытость</h1>
@@ -146,35 +162,35 @@
 <section id="learn">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12  col-md-12 col-sm-12 ">
                 <div class="learn__titles">
                     <h1>Учитесь бесплатно</h1>
                     <p>Мы стремимся сделать знания доступными каждому, поэтому каждый день на портале появляются новые
                         бесплатные обучающие материалы в виде статей, вебинаров или видеокурсов</p>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <div class="learn__block">
-                    <div class="learn__box"><i class="fas fa-intensive"></i></div>
+                    <div class="learn__box"><i class="fab fa-instagram"></i></div>
                     <h1>Интенсивы</h1>
                     <p>12</p>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
                 <div class="learn__block2">
                     <div class="learn__box"><i class="fas fa-intensive"></i></div>
                     <h1>Профессии</h1>
                     <p>33</p>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
                 <div class="learn__block3">
                     <div class="learn__box"><i class="fas fa-intensive"></i></div>
                     <h1>Вебинары</h1>
                     <p>1013</p>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
                 <div class="learn__block4">
                     <div class="learn__box"><i class="fas fa-intensive"></i></div>
                     <h1>Статьи</h1>
@@ -188,7 +204,7 @@
     <div class="img"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
                 <h1 class="employment__title">Опыт в стартапе</h1>
                 <p class="employment__desc">Любой пользователь на портале может заявить о своем проекте в разделе
                     Карьера и набрать команду единомышленников для совместной работы. Сообщество GeekBrains поможет
@@ -198,12 +214,12 @@
                     <a href="#">Все проекты</a>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div >
+            <div class="col-lg-6 col-md-6 col-sm-12  ">
+                <div>
                     <img class="employment__img" src="./img/Group%201.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12  col-md-12 col-sm-12  col-xl-12 col-xxl-12">
                 <div class="employment__block__titles">
                     <h1>Трудоустройство</h1>
                     <p>Мы соединяем вас с компаниями для будущего трудоустройства. Свежие вакансии от компаний
@@ -212,19 +228,6 @@
                     <a href="#">Перейти к вакансиям</a>
                 </div>
             </div>
-<!--            <div class="col-lg-12">-->
-<!--                <div class="display flex-column align-items-center">-->
-<!--                    <div class="employment__block ">-->
-<!--                        <div>-->
-<!--                            <img src="" alt="">-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <h3></h3>-->
-<!--                        </div>-->
-<!--                        <div></div>-->
-<!--                    </div>-->
-<!--               </div>-->
-            </div>
         </div>
     </div>
 </section>
@@ -232,52 +235,53 @@
     <div class="learn__img"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div  class="learn__about_title"><h1>Как проходит обучение</h1></div></div>
-            <div class="col-lg-6">
-               <div class="l_a_block">
-                   <div class="l_a_block_img">
-                       <img src="" alt="">
-                   </div>
-                   <div class="l_a_block_title">
-                       <h3>«Живое» онлайн-обучение</h3>
-                       <p>Наш опыт говорит о том, что в обучении должны участвовать реальные люди, а не обезличенные тренажеры. У вас не хватит мотивации, если вас не будет поддерживать преподаватель, одногруппники и личный наставник. Все это предоставит GeekBrains в рамках обучения.</p>
-                   </div>
-               </div>
+            <div class="col-lg-12  col-md-12 col-sm-12  col-xl-12 col-xxl-12">
+                <div class="learn__about_title"><h1>Как проходит обучение</h1></div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
+                <div class="l_a_block">
+                        <img class="l_a_block_img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                    <div class="l_a_block_title">
+                        <h3>«Живое» онлайн-обучение</h3>
+                        <p>Наш опыт говорит о том, что в обучении должны участвовать реальные люди, а не обезличенные
+                            тренажеры. У вас не хватит мотивации, если вас не будет поддерживать преподаватель,
+                            одногруппники и личный наставник. Все это предоставит GeekBrains в рамках обучения.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="learn__about__box">
                     <img src="./img/Frame%201.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="learn__about__box1">
                     <img src="./img/Frame%201.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-12 col-sm-12  ">
                 <div class="l_a_block">
-                    <div class="l_a_block_img">
-                        <img src="" alt="">
-                    </div>
+                    <img class="l_a_block_img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
                     <div class="l_a_block_title ">
                         <h3 class="color">«Живое» онлайн-обучение</h3>
-                        <p>Наш опыт говорит о том, что в обучении должны участвовать реальные люди, а не обезличенные тренажеры. У вас не хватит мотивации, если вас не будет поддерживать преподаватель, одногруппники и личный наставник. Все это предоставит GeekBrains в рамках обучения.</p>
+                        <p>Наш опыт говорит о том, что в обучении должны участвовать реальные люди, а не обезличенные
+                            тренажеры. У вас не хватит мотивации, если вас не будет поддерживать преподаватель,
+                            одногруппники и личный наставник. Все это предоставит GeekBrains в рамках обучения.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="l_a_block">
-                    <div class="l_a_block_img">
-                        <img src="" alt="">
-                    </div>
+                    <img class="l_a_block_img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
                     <div class="l_a_block_title">
                         <h3>«Живое» онлайн-обучение</h3>
-                        <p>Наш опыт говорит о том, что в обучении должны участвовать реальные люди, а не обезличенные тренажеры. У вас не хватит мотивации, если вас не будет поддерживать преподаватель, одногруппники и личный наставник. Все это предоставит GeekBrains в рамках обучения.</p>
+                        <p>Наш опыт говорит о том, что в обучении должны участвовать реальные люди, а не обезличенные
+                            тренажеры. У вас не хватит мотивации, если вас не будет поддерживать преподаватель,
+                            одногруппники и личный наставник. Все это предоставит GeekBrains в рамках обучения.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
                 <div class="learn__about__box">
                     <img src="./img/Frame%201.png" alt="">
                 </div>
@@ -285,9 +289,160 @@
         </div>
     </div>
 </section>
+<section id="slick">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12  col-xl-12 col-xxl-12">
+                <div class="slider__titles">
+                    <h1>Преподаватели</h1>
+                    <p>Профессиональные практикующие специалисты и сотрудники крупных компаний, каждый из которых
+                        обладает профильным образованием и длительным стажем работы.</p>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12  col-xl-12 col-xxl-12">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider__card">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__card ">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="slider__card ">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__card ">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__card ">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__card">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__card">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__card">
+                                <div class="card__block">
+                                </div>
+                                <img class="card__block__img" src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                                <h1>Исмайилов Аман</h1>
+                                <p>Fullstack web-разработчик в «MedPoint24». Работает по гибким методологиям разработки
+                                    Scrum,
+                                    BDD. В проектах использует PHP, JavaScript, Node.js, MongoDb и MySQL. Имеет опыт
+                                    разработки
+                                    микросервисного программного обеспечения.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="document">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12  col-xl-12 col-xxl-12">
+                <div class="document__titles">
+                    <h1>Документы о квалификации</h1>
+                    <p>Мы проводим обучение на основании <span class="document__titles__span">государственной лицензии № 040485 </span><br>
+                        По результатам успешного завершения обучения выдаем выпускникам диплом о профессиональной переподготовке или удостоверение о повышении квалификации, а также именной электронный сертификат на портале GeekBrains.</p>
+                </div>
+                <div class="document__images">
+                    <img class="document__images__1" src="./img/certificate_webanalytics_big-f5b4d0522c5e178a0979d408b774d0afd157c5b61d142da4a5d6dfff41544862.jpeg" alt="">
+                    <img class="document__images__2" src="./img/diploma-index-2c516490b76f8f2f637486f149f5acd6be54b472d18e2e82145caf8c4ed775a1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<script src="js/script.js"></script>
+
+
+
+
+
 <script src="js/bootstrap.min.js"></script>
+<script src="js/scroll.js"></script>
 <script src="js/all.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,9 @@
+@media (max-width: 1024px) {
+    .header__log img{
+        width: 200px;
+        margin-left: 13px;
+    }
+    .menu__btn{
+        font-size: 16px;
+    }
+}
