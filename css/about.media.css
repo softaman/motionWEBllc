@@ -274,6 +274,13 @@
     }
 
 
+    .learn__about_title h1 {
+        font-size: 32px;
+    }
+    .tel__search{
+        display: none;
+    }
+
 }@media (max-width: 414px) {
     .tel__search {
         display: none;
@@ -398,6 +405,9 @@
     }
 }
 @media (max-width: 320px) {
+    .header__logo{
+        width: 250px;
+    }
     .about__desc {
         width: 305px;
     }
