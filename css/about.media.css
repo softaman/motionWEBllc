@@ -37,7 +37,7 @@
     }
 
     .employment__img {
-        width: 539px;
+        width: 495px;
         margin-top: -765.5px;
     }
 
@@ -201,6 +201,9 @@
         width: 385px;
         margin-top: 364px;
     }
+    .slider__card {
+        width: 342px;
+    }
 
 }
 @media (max-width: 576px) {
@@ -275,13 +278,15 @@
     .tel__search {
         display: none;
     }
-    .document__images__1{
+
+    .document__images__1 {
         width: 402px;
     }
-        .document__images__2 {
-            width: 391px;
-            margin-top: 314px;
-        }
+
+    .document__images__2 {
+        width: 391px;
+        margin-top: 314px;
+    }
 
     .about__desc2 {
         width: 360px;
@@ -331,17 +336,29 @@
     .l_a_block_title h3 {
         font-size: 18px;
     }
+
     .l_a_block_title p {
         width: 253px;
     }
-    .slider__card{
+
+    .slider__card {
         width: 302px;
     }
+
     .document__titles h1 {
         font-size: 26px;
     }
+
     .document__titles p {
         margin: 13px auto;
+    }
+
+    .slider__titles h1 {
+        font-size: 48px;
+    }
+
+    .learn__about_title h1 {
+        font-size: 26px;
     }
 }
 @media (max-width: 375px) {
@@ -376,8 +393,10 @@
     .document__titles p {
         margin: 0 auto;
     }
-
+    .slider__titles h1 {
+        font-size: 44px;
     }
+}
 @media (max-width: 320px) {
     .about__desc {
         width: 305px;
@@ -417,6 +436,9 @@
     .document__images__2 {
         width: 293px;
         margin-top: 244px;
+    }
+    .slider__titles h1 {
+        font-size: 30px;
     }
 }
 
