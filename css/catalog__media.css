@@ -1,0 +1,148 @@
+@media (max-width: 1024px) {
+    .catalog__title {
+        font-size: 44px;
+    }
+
+    .catalog__card {
+        margin: 10px 10px;
+        padding: 11px;
+    }
+
+    .card__box p {
+        width: 256px;
+    }
+
+    .card__box2 {
+        margin-left: 10px;
+        width: 60px;
+    }
+
+    .tablink {
+        width: 181px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .w3-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalog__card {
+        margin: 10px 10px;
+        padding: 24px;
+        width: 519px;
+        margin-left: 50px;
+    }
+
+    .catalog__title {
+        font-size: 36px;
+    }
+
+    .card__box2 {
+        margin-left: -76px;
+        width: 60px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .card__box p {
+        width: 376px;
+    }
+
+    .menu__links_block {
+        display: none;
+    }
+
+    .menu__links2 {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .catalog__card {
+        margin-left: -1px;
+    }
+
+    .menu__btn2 {
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .catalog__title {
+        line-height: 42px;
+        font-size: 25px;
+    }
+
+    .menu__btn2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .catalog__card {
+        width: 390px;
+    }
+
+    .card__box p {
+        width: 271px;
+    }
+
+    .card__box2 {
+        margin-left: -55px;
+    }
+}
+
+@media (max-width: 375px) {
+    .catalog__card {
+        margin: 10px 0;
+        padding: 5px;
+
+        width: 351px;
+    }
+
+    .card__box2 img {
+        width: 39px;
+    }
+
+    .card__box2__sale {
+        width: 40px;
+        height: 40px;
+    }
+    .card__box2 {
+        margin-left: -60px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .catalog__card {
+        width: 295px;
+    }
+    .card__box__block h3{
+        padding: 4px 1px;
+    }
+    .card__box__block h4{
+        padding: 4px 1px;
+    }
+    .card__box2{
+        margin-left: 140px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1px;
+    }
+    .card__box2__sale{
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .catalog__card{
+        display: flex;
+        flex-direction: column;
+    }
+}

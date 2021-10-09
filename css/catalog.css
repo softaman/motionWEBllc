@@ -1,0 +1,159 @@
+#catalog {
+    width: 100%;
+}
+.catalog{
+    padding-top: 200px;
+}
+.catalog__title{
+    flex: 0 auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000;
+    font-size: 56px;
+    line-height: 64px;
+    white-space: normal;
+    font-weight: 700;
+}
+
+.w3-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city{
+    display: flex;
+    flex-wrap: wrap;
+    animation: new 1s alternate;
+}
+
+@keyframes new {
+    0%
+    {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.catalog__about{
+    padding-top: 120px;
+}
+.tablink:hover{
+    background-color: #eff0f5;
+}
+.tablink:focus{
+    background-color: #6654d9;
+color: white;
+}
+.tablink{
+    width: 212px;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 12px;
+    justify-content: flex-start;
+    border: none;
+    background: transparent;
+}
+/*background-color: #6654d9;*/
+/*background-color: #eff0f5;*/
+.card__box h1{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 22px;
+
+    line-height: 28px;
+    font-weight: 700;
+}
+.card__box p{
+    color: #1f222e;
+    width: 380px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+.catalog__card{
+    margin:18px  18px;
+    padding: 32px;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+    border-radius: 12px;
+    box-shadow: 6px 6px 20px 4px rgb(55 84 170 / 12%);
+    transform: scale(1);
+    transition: 0.5s;
+}
+.catalog__card:hover{
+    transform: scale(1.06);
+
+    transform-style: preserve-3d;
+}
+.w3-sidebar{
+    margin-top: 40px;
+    margin-left: -15px;
+    position: sticky;
+    top: 120px;
+}
+
+.card__box__block{
+    display: flex;
+}
+.card__box__block h4{
+    padding: 6px 8px;
+    border-radius: 4px;
+    background-color: #eff0f5;
+    color: #1f222e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.card__box__block h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 4px;
+    background-color: #edfcf7;
+    color: #10af7c;
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.card__box2__sale{
+    background: url("../img/Ellipse 1.png")no-repeat center/cover;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.card__box2__sale p{
+    color: white;
+    margin-left: 4px;
+    margin-top: 14px;
+}
+.card__box2 img {
+    width: 65px;
+    height: 60px;
+}
+.card__box2{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
