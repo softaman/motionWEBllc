@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/logo_title.svg" type="image/svg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/index_media.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/about.media.css">
+    <link rel="stylesheet" href="./css/catalog.css">
+    <link rel="stylesheet" href="./css/catalog__media.css">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <title>Motion-Web</title>
+    <link rel="stylesheet" href="./css/card.css">
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="header__menu">
+            <div class="header__nav">
+                <a href="index.html"><img class="header__logo" src="img/logo.svg" alt=""></a>
+                <div class="nav__menu">
+                    <div class="menu__links">
+                        <button onclick="menuFunction()" class="menu__btn">Биздин курстар <i
+                                class="fas fa-sort-down"></i></button>
+                        <div id="menudown" class="menu-content">
+                            <a href="catalog.html">Веб разработка</a>
+                            <a href="catalog.html">Мобилдик разработка</a>
+                            <a href="catalog.html">Бизнес</a>
+                        </div>
+                    </div>
+                    <a class="menu__link menu__btn" href="#">Биз жөнүндө</a>
+                </div>
+                <div class="tel__search">
+                    <a class="menu__link menu__btn" href="tel:+996 700 123 404">+996 700 123 404</a>
+                    <div class="search__item">
+                        <a class="menu__link  menu__btn search__active" href="#"><i class="fas fa-search"></i></a>
+                        <!--					<input class="search" type="search" placeholder="Издөө">-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="card_hero">
+    <div class="container">
+        <div class="card_hero">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a class="card_hero_a" href="#">Востребованная профессия</a>
+                    <h3 class="card_hero_h1">Факультет <br> веб-разработки</h3>
+                    <p class="card_hero_p">Научим веб-разработке с нуля: вы пройдёте путь от создания макетов до
+                        оптимизации баз данных и алгоритмов. После обучения получите практический опыт и сможете
+                        развивать высоконагруженные проекты.</p>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="card_hero_box1">
+                                <img src="./img/615b0b84eb2426e8b0ff49df_Eagle_Icon_Green%20(48x48).svg" alt="">
+                                <p>Диплом о профессиональной
+                                    переподготовке</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="card_hero_box1">
+                                <img src="./img/615b0b84eb2426e8b0ff49df_Eagle_Icon_Green%20(48x48).svg" alt="">
+                                <p>Диплом о профессиональной
+                                    переподготовке</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card_hero_block">
+                                <div class="card_hero_block1"><h1>от 5 542 ₽</h1>
+                                    <p>в месяц</p></div>
+                                <div class="card_hero_block2"><h1>от 4 433 ₽</h1>
+                                    <p>в месяц</p></div>
+                                <p>При рассрочке на 36 месяцев</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card_block">
+                        <h1>Оставьте заявку</h1>
+                        <p>Начало обучения: <span class="card_block_span">15 октября</span></p>
+                        <p>Старт потока каждые: <span class="card_block_span">2 недели</span></p>
+                        <select name="name" id="select">
+                            <option value="first">Программа обучения</option>
+                            <option value="secend">Программа обучения + личные консультации</option>
+                        </select>
+                        <div class="card_block_input">
+                            <input placeholder="Имя" type="text">
+                            <input placeholder="Email" type="text">
+                            <input placeholder="342 145 675" type="number">
+                        </div>
+                        <button>Хочу учиться</button>
+                        <h5>Отправляя заявку, вы принимаете условия <span class="card_span">договора-оферты</span> и
+                            даете согласие на
+                            обработку своих персональных данных в соответствии с
+                            <span class="card_span">политикой конфиденциальности</span></h5>
+                    </div>
+                    <img class="card_block_img" src="./img/6107f7df833eb96b6e1b25e2_bg-line.svg" alt="">
+                    <div class="card_hero_sale">
+                        <h1>20%</h1>
+                        <p>скидка <br>
+                            до 13 октября</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="card_box">
+                        <p>ДЛИТЕЛЬНОСТЬ</p>
+                        <h1>16 Месяцев</h1>
+                        <h2><span class="card_box_span">2</span> занятия в неделю</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card_box">
+                        <p>РЕЗУЛЬТАТ</p>
+                        <h1>Диплом</h1>
+                        <h2><span class="card_box_span">5</span> работ в портфолио</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card_box">
+                        <p>ГАРАНТИЯ</p>
+                        <h1>Трудоустройство</h1>
+                        <h2><span class="card_box_span"></span>после обучения</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="card_dev">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card_dev">
+                    <h1>Веб-разработчик создаёт сайты: поисковики, соцсети, банковские приложения. Он отвечает как за
+                        внешний вид сайта, так и за его логику: работу серверов, файлов и баз данных. Если убрать
+                        веб-разработчиков, бизнес перестанет зарабатывать в интернете.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="card_dev2">
+    <div class="card_dev2_img">
+        <img src="./img/5faf6d55956f3d59d5d736f8_Vector%20731.svg" alt="">
+    </div>
+    <div class="container">
+        <div class="card_dev2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card_dev2_block">
+                        <h1>Веб-разработчики востребованы на рынке</h1>
+                        <p>Источник данных: <span>Headhunter</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card_dev2_block2">
+                        <div>
+                            <div class=" w3-bar-block w3-black w3-card">
+                                <button class="w3-bar-item w3-button" onclick="openCity('London')">Без опыта</button>
+                                <button class=" w4-button" onclick="openCity('Paris')">С опытом от года</button>
+                            </div>
+                        </div>
+                        <div id="London" class="city card_dev2_block33">
+                            <div class="row">
+                                <div class="col-lg-6 card_dev2_block3">
+                                    <h1>65 000 ₽</h1>
+                                    <p>Зарплата в месяц</p>
+                                </div>
+                                <div class="col-lg-6 card_dev2_block3">
+                                    <h1>7% <span class="card_dev2_block3_span">  от всех </span></h1>
+                                    <p>Доступных вакансий на hh.ru</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Paris" class="city" style="display:none">
+                            <div class="row">
+                                <div class="col-lg-6 card_dev2_block3">
+                                    <h1>100 000 ₽</h1>
+                                    <p>Зарплата в месяц</p>
+                                </div>
+                                <div class="col-lg-6 card_dev2_block3">
+                                    <h1>51% <span class="card_dev2_block3_span">  от всех</span></h1>
+                                    <p>Доступных вакансий на hh.ru</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="course">
+    <div class="container">
+        <div class="course">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="course_title">Кому подойдет курс</h1>
+                </div>
+                <div class="col-lg-4">
+                    <div class="course_desc">
+                        <img src="./img/5faf6925dc2686473d992ced_checkmark--filled%20(1).svg" alt="">
+                        <h1>Новичкам</h1>
+                        <p>Даже если вы никогда не работали в IT, вы получите востребованную и высокооплачиваемую
+                            специальность.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="course_desc">
+                        <img src="./img/5faf6925dc2686473d992ced_checkmark--filled%20(1).svg" alt="">
+                        <h1>Начинающим веб-разработчикам</h1>
+                        <p>У вас будет всё для ускоренного карьерного роста: комплексные знания и опыт работы с
+                            продвинутыми инструментами, методологиями и стандартами.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="course_desc">
+                        <img src="./img/5faf6925dc2686473d992ced_checkmark--filled%20(1).svg" alt="">
+                        <h1>Практикующим IT-специалистам</h1>
+                        <p>Подскажем, как перейти в востребованное направление и зарабатывать больше.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="course_block">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="course_block_title">Станьте веб-разработчиком с нуля</h1>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="course_box">
+                                    <img src="./img/60ae74559505f41a178d34d4_Obuchenie%20v%20udobnoe%20vremya.png"
+                                         alt="">
+                                    <div class="course_box_block">
+                                        <h1>Интерактивные вебинары и записи занятий</h1>
+                                        <p>Вебинары проходят в Zoom: вы задаёте вопросы преподавателю, получаете ответы
+                                            и общаетесь с однокурсниками. Каждый вебинар легко пересматривать в записи,
+                                            даже если его пришлось пропустить.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="course_box">
+                                    <img src="./img/60ae74559505f41a178d34d4_Obuchenie%20v%20udobnoe%20vremya.png"
+                                         alt="">
+                                    <div class="course_box_block">
+                                        <h1>Интерактивные вебинары и записи занятий</h1>
+                                        <p>Вебинары проходят в Zoom: вы задаёте вопросы преподавателю, получаете ответы
+                                            и общаетесь с однокурсниками. Каждый вебинар легко пересматривать в записи,
+                                            даже если его пришлось пропустить.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="course_box">
+                                    <img src="./img/60ae74559505f41a178d34d4_Obuchenie%20v%20udobnoe%20vremya.png"
+                                         alt="">
+                                    <div class="course_box_block">
+                                        <h1>Интерактивные вебинары и записи занятий</h1>
+                                        <p>Вебинары проходят в Zoom: вы задаёте вопросы преподавателю, получаете ответы
+                                            и общаетесь с однокурсниками. Каждый вебинар легко пересматривать в записи,
+                                            даже если его пришлось пропустить.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="course_box">
+                                    <img src="./img/60ae74559505f41a178d34d4_Obuchenie%20v%20udobnoe%20vremya.png"
+                                         alt="">
+                                    <div class="course_box_block">
+                                        <h1>Интерактивные вебинары и записи занятий</h1>
+                                        <p>Вебинары проходят в Zoom: вы задаёте вопросы преподавателю, получаете ответы
+                                            и общаетесь с однокурсниками. Каждый вебинар легко пересматривать в записи,
+                                            даже если его пришлось пропустить.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="course_box">
+                                    <img src="./img/60ae74559505f41a178d34d4_Obuchenie%20v%20udobnoe%20vremya.png"
+                                         alt="">
+                                    <div class="course_box_block">
+                                        <h1>Интерактивные вебинары и записи занятий</h1>
+                                        <p>Вебинары проходят в Zoom: вы задаёте вопросы преподавателю, получаете ответы
+                                            и общаетесь с однокурсниками. Каждый вебинар легко пересматривать в записи,
+                                            даже если его пришлось пропустить.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="student">
+    <img src="./img/5faf6c94530de690d9912d99_Rectangle%20638.svg" alt="" class="student_img">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="student">
+                    <h1>100%</h1>
+                    <p>студентов GeekBrains, которые обратились <br>в наш Центр карьеры, ежегодно выходят на работу по
+                        специальности</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="work">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="work_title">Как вы найдете работу с помощью <br> Motion-Web</h1>
+            </div>
+            <div class="col-lg-12">
+                <div class="work_block1_line"></div>
+            </div>
+            <div class="col-lg-3">
+                <div class="work_block">
+                    <div class="work_block1">
+                        <h2 class="work_block1_tit">1</h2>
+                    </div>
+                    <h1>Дадим необходимые знания</h1>
+                    <p>Вы получите все навыки на курсах основного обучения и факультативах от компаний-партнеров.</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="work_block">
+                    <div class="work_block1">
+                        <h2 class="work_block1_tit">2</h2>
+                    </div>
+                    <h1>Дадим необходимые знания</h1>
+                    <p>Вы получите все навыки на курсах основного обучения и факультативах от компаний-партнеров.</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="work_block">
+                    <div class="work_block1">
+                        <h2 class="work_block1_tit">3</h2>
+                    </div>
+                    <h1>Дадим необходимые знания</h1>
+                    <p>Вы получите все навыки на курсах основного обучения и факультативах от компаний-партнеров.</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="work_block">
+                    <div class="work_block1">
+                        <h2 class="work_block1_tit">4</h2>
+                    </div>
+                    <h1>Дадим необходимые знания</h1>
+                    <p>Вы получите все навыки на курсах основного обучения и факультативах от компаний-партнеров.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="success">
+    <div class="col-lg-12">
+        <button  onclick= "document.getElementById('card_modal').style.display='none'" id="card_modal" class="window">
+            <div  class="success_card_block">
+                <div class="success_card_block_person">
+                    <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                    <h1>Вениамин Шитиков</h1>
+                </div>
+                <div class="success_card_block_titles">
+                    <h1>— Вениамин, какое у тебя было образование и где ты работал до GB? Откуда у начальника склада подготовка, чтобы выиграть бесплатное обучение IT-профессии при огромном конкурсе? :)</h1>
+                    <p>— Образование было высшее, но очень далекое от веб-разработки. В 2001 году я окончил Ташкентский университет информационных технологий по специальности «радиосвязь, радиовещание и телевидение».
+
+                        Первый опыт в программировании получил самостоятельно — пробовал изучать язык Java. А позже, когда узнал о конкурсе на бесплатное обучение в GeekBrains, начал активно подтягивать знания.
+
+                        — Ты родился в Узбекистане?
+                        — Родился я в Ленинграде, но, когда мне было семь лет, мы с мамой переехали в Ташкент. Там я вырос, окончил школу и университет. В 2002 году переехал обратно в Питер к отцу. Считаю себя петербуржцем до глубины души: люблю свой город со всеми его дождями, парадными, поребриками и гречей с курами.
+
+                        Тем не менее, когда мне предложили работу в GeekBrains, ни грамма не сомневался, что нужно ехать в Москву.
+
+                        — Когда ты понял, что разработка — это твое?
+                        — Стало нестерпимо на старой работе. Так получилось, что по возвращении из Ташкента мне нужно было заново получать гражданство. Куда устроиться человеку без гражданства? На склад. Так я стал кладовщиком, что на тот момент было очень неплохо.
+
+                        К 2013 году я вырос в начальника большого склада. Первое время было интересно и финансово все устраивало. Но за пять лет многое изменилось. Сейчас логистика — звено, на котором все пытаются экономить. И получается, что работы на складах становится больше, а зарплата не растет. Изменилось и отношение к этой сфере. Я понял: надо что-то менять.
+
+                        Проанализировал рынок вакансий и свои сильные стороны: образование и математические способности, — решил попробовать себя в программировании.
+
+                        Сначала я выбрал язык Java: читал о нем, пробовал писать код и убедился, что мне это интересно. Начал искать курсы и узнал про GeekBrains. Собирался записаться на платное обучение, но увидел, что проходит замечательный конкурс. Можно было выиграть бесплатное обучение фронтенду или Ruby.
+
+                        Я решил попробовать. Постоянно обращался к Googlе в поисках, чего бы еще почитать. По-моему, поисковик — главное оружие разработчика.
+
+                        — И почему между Frontend и Ruby ты выбрал первое?
+                        — Это произошло спонтанно: для поступления на специальность «frontend-разработка» во вступительных задачах нужно было использовать JavaScript. По сравнению с Ruby язык JS показался мне более близким к Java и потому более понятным.
+
+                        Позднее, уже в процессе учебы, я пришел к выводу, что сделал правильный выбор. В JavaScript я нашел то, чего мне не хватало в Java, — прежде всего, возможность быстро видеть результат своей работы.</p>
+                </div>
+            </div>
+        </button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="success_title">Наши студенты достигают успеха</h1>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <button class="success_card" onclick= "document.getElementById('card_modal').style.display='block'">
+                            <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                            <p>«Как я стал frontend-разработчиком в Mail.ru Group», — Вениамин Шитиков</p>
+                            <a href="">Читать подробнее</a>
+                        </button>
+                    </div>
+                    <div class="swiper-slide ">
+                        <button class="success_card" onclick= "document.getElementById('card_modal').style.display='block'">
+                            <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                            <p>«Как я стал frontend-разработчиком в Mail.ru Group», — Вениамин Шитиков</p>
+                            <a href="">Читать подробнее</a>
+                        </button>
+                    </div>
+                    <div class="swiper-slide ">
+                        <button class="success_card" onclick= "document.getElementById('card_modal').style.display='block'">
+                            <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                            <p>«Как я стал frontend-разработчиком в Mail.ru Group», — Вениамин Шитиков</p>
+                            <a href="">Читать подробнее</a>
+                        </button>
+                    </div>
+                    <div class="swiper-slide ">
+                        <button class="success_card" onclick= "document.getElementById('card_modal').style.display='block'">
+                            <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                            <p>«Как я стал frontend-разработчиком в Mail.ru Group», — Вениамин Шитиков</p>
+                            <a href="">Читать подробнее</a>
+                        </button>
+                    </div>
+                    <div class="swiper-slide ">
+                        <button class="success_card" onclick= "document.getElementById('card_modal').style.display='block'">
+                            <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                            <p>«Как я стал frontend-разработчиком в Mail.ru Group», — Вениамин Шитиков</p>
+                            <a href="">Читать подробнее</a>
+                        </button>
+                    </div>
+                    <div class="swiper-slide ">
+                        <button class="success_card" onclick= "document.getElementById('card_modal').style.display='block'">
+                            <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                            <p>«Как я стал frontend-разработчиком в Mail.ru Group», — Вениамин Шитиков</p>
+                            <a href="">Читать подробнее</a>
+                        </button>
+                    </div>
+                    <div class="swiper-slide ">
+                        <button class="success_card" onclick= "document.getElementById('card_modal').style.display='block'">
+                            <img src="./img/IMAGE 2021-10-06 15:07:43.jpg" alt="">
+                            <p>«Как я стал frontend-разработчиком в Mail.ru Group», — Вениамин Шитиков</p>
+                            <a href="">Читать подробнее</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="lesson">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="lesson">
+                    <h1>Программа обучения</h1>
+                    <div class="lesson_line"></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="lesson_block">
+                    <h1>Подготовительный блок</h1>
+                    <p>Вы углубитесь в верстку на HTML/CSS и приступите к изучению JavaScript: познакомитесь с основами языка, операторами, циклами, массивами и объектами, научитесь работать с браузерными событиями: кликом мышки, прокруткой, отправкой формы.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="lesson_box">
+                    <h1>Курсы</h1>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="  accordion-header" id="flush-headingOne">
+                                <button class=" lesson_btn accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="lesson_btn2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="lesson_btn2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="lesson_line"></div>
+            </div>
+            <div class="col-lg-12">        <h5 class="lesson_block_tit">I четверть</h5></div>
+            <div class="col-lg-6">
+                <div class="lesson_block">
+                    <h1>Подготовительный блок</h1>
+                    <p>Вы углубитесь в верстку на HTML/CSS и приступите к изучению JavaScript: познакомитесь с основами языка, операторами, циклами, массивами и объектами, научитесь работать с браузерными событиями: кликом мышки, прокруткой, отправкой формы.</p>
+                    <h4>Итоговый проект</h4>
+                    <p>Верстка сайта.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="lesson_box">
+                    <h1>Курсы</h1>
+                    <div class="accordion accordion-flush" id="accordionFlushxample">
+                        <div class="accordion-item">
+                            <h2 class="  accordion-header" id="flush-collaseOne">
+                                <button class=" lesson_btn accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="flush-collaseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flushheadingTwo">
+                                <button class="lesson_btn2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="lesson_block_btn">Открыть всю программу</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/catalog.js"></script>
+<script src="js/script.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+
+        dots: true ,
+    });
+    swiper()
+
+
+
+
+</script>
+</body>
+</html>

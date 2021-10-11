@@ -1,0 +1,834 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#card_hero {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+
+    background: #14161f;
+}
+
+.card_hero {
+    padding-top: 80px;
+}
+
+.card_hero_a {
+    margin-right: 8px;
+    padding: 2px 16px;
+    border: 1px solid #9c9fb0;
+    border-radius: 46px;
+    color: #9c9fb0;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card_hero_h1 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: white;
+}
+
+.card_hero_p {
+    display: block;
+    width: 660px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.card_hero_box1 p {
+    color: #1fb887;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.card_hero_box1 {
+    display: flex;
+}
+
+.card_hero_block1 {
+    display: flex;
+}
+
+.card_hero_block2 {
+    display: flex;
+}
+
+.card_hero_block p {
+    color: #8f93a3;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.card_hero_block1 h1 {
+    text-decoration: line-through;
+    font-size: 33px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: white;
+}
+
+.card_hero_block1 p {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1;
+    margin-left: 5px;
+
+    font-weight: 700;
+}
+
+.card_hero_block2 h1 {
+    font-size: 40px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #1fb887;
+}
+
+.card_hero_block2 p {
+    display: block;
+    color: #1fb887;
+    margin-bottom: 8px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.card_block_img {
+    position: absolute;
+}
+
+.card_hero_sale p {
+    font-size: 15px;
+    color: white;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.card_hero_sale h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin-top: 25px;
+    color: white;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.card_hero_sale {
+    position: absolute;
+    z-index: 3;
+    width: 153px;
+    border-radius: 50%;
+    background-color: #1fb887;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_block {
+    position: absolute;
+    z-index: 2;
+    margin-left: 100px;
+    overflow: hidden;
+    width: 460px;
+    margin-top: 53px;
+    height: 620px;
+    margin-bottom: 40px;
+    padding: 60px 35px 35px;
+    border-radius: 16px;
+    background-color: #f4f5fa;
+}
+
+.card_block h1 {
+    color: #000;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card_block_span {
+    line-height: 1.3;
+    font-size: 15px;
+    color: black;
+    font-weight: 550;
+}
+
+.card_block p {
+    color: #373a49;
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+#select {
+    font-size: 17px;
+    margin-top: 20px;
+    color: black;
+    width: 340px;
+    font-weight: 500;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.card_span {
+    color: #0d6efd;
+}
+
+.card_block_input {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.card_block_input input {
+    min-height: 48px;
+    margin-bottom: 8px;
+    padding-top: 2vh;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    outline: none;
+    border-color: #000 #000 #dddee4;
+    background-color: transparent;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.card_block button {
+    display: block;
+    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 44px;
+    background-color: #ffcf40;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    border: none;
+}
+
+.card_block h5 {
+    opacity: 0.4;
+    color: rgba(18, 18, 18, 0.4);
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+
+.card_box h2 {
+    display: block;
+    font-size: 24px;
+    line-height: 1.2;
+    color: white;
+}
+
+.card_box_span {
+    color: #1fb887;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.card_box {
+    margin-top: 140px;
+}
+
+.card_box h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.card_box p {
+    color: #8f93a3;
+    font-size: 16px;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+#card_dev {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    background: white;
+}
+
+.card_dev {
+    display: flex;
+}
+
+.card_dev h1 {
+    color: #000;
+    font-size: 35px;
+    margin-top: 120px;
+    width: 1100px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+
+#card_dev2 {
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    background-color: #181818;
+}
+
+.card_dev2_img {
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.card_dev2_block {
+    margin-top: 140px;
+    margin-left: 120px;
+}
+
+.card_dev2_block h1 {
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+    font-weight: 600;
+}
+
+.card_dev2_block p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.w3-black {
+    display: flex;
+}
+
+.card_dev2_block2 {
+    position: relative;
+    margin-top: 110px;
+    z-index: 2;
+    width: 528px;
+    height: 240px;
+    padding-top: 20px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+
+
+.w3-bar-item {
+    margin-right: 10px;
+    background-color: #f4f5fa;
+    color: #000;
+    width: 155px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+
+.w4-button {
+    background-color: #000;
+    color: #fff;
+    width: 222px;
+    height: 50px;
+    line-height: 22px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+}
+
+.card_dev2_block33 {
+    margin-top: 25px;
+}
+
+.card_dev2_block3 {
+    width: 230px;
+}
+
+.card_dev2_block3 p {
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.card_dev2_block3 h1 {
+    color: #000;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.card_dev2_block3_span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+/*course*/
+#course {
+    position: relative;
+    overflow: hidden;
+    padding-top: 64px;
+    width: 100%;
+    padding-bottom: 72px;
+    background: white;
+}
+
+.course {
+    margin-top: 130px;
+}
+
+.course_title {
+    color: #000;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+.course_desc {
+    margin-top: 40px;
+}
+
+.course_desc h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.course_desc p {
+    width: 370px;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.course_block {
+    margin-top: 90px;
+    background-color: #f4f5fa;
+    border-radius: 32px;
+    padding: 64px 40px 112px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course_block_title {
+    color: #000;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+.course_box {
+    display: flex;
+    margin-top: 70px;
+}
+
+.course_box img {
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.course_box_block h1 {
+    color: #000;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    width: 390px;
+}
+
+.course_box_block {
+    margin-left: 20px;
+}
+
+.course_box_block p {
+    color: #000;
+    font-size: 18px;
+    line-height: 23px;
+    width: 365px;
+    font-weight: 300;
+}
+
+/*course*/
+/*student*/
+
+#student {
+    position: relative;
+    overflow: hidden;
+    padding-top: 64px;
+    width: 100%;
+    padding-bottom: 72px;
+    background-color: #d1baff;
+}
+
+
+.student_img {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: -130px;
+    width: 800px;
+    z-index: 1;
+}
+
+.student {
+    z-index: 2;
+    margin-top: 40px;
+    display: flex;
+}
+
+.student h1 {
+    margin-left: 30px;
+    color: #000;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.student p {
+    width: 750px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+    z-index: 2;
+    line-height: 32px;
+}
+
+/*student*/
+
+/*work*/
+#work {
+    position: relative;
+    overflow: hidden;
+    padding-top: 64px;
+    width: 100%;
+    padding-bottom: 72px;
+}
+
+.work_title {
+    margin-bottom: 16px;
+    color: #000;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+.work_block {
+    margin-top: -17px;
+    width: 230px;
+}
+
+.work_block1_tit {
+    font-size: 24px;
+    color: white;
+    margin-top: 7px;
+    z-index: 2;
+}
+
+.work_block1 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.work_block1_line {
+    width: 78%;
+    height: 1px;
+    background: rgba(66, 66, 66, 0.8);
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.work_block h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.work_block p {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+/*work*/
+/*success*/
+#success {
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding-top: 64px;
+    width: 100%;
+    padding-bottom: 72px;
+}
+
+.success_title {
+    font-size: 42px;
+    line-height: 54px;
+    margin-top: 0px;
+    margin-bottom: 66px;
+    color: #000;
+    font-weight: 600;
+}
+
+.success_card {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    width: 336px;
+    min-height: 430px;
+    -webkit-flex-direction: column;
+    border-radius: 24px;
+    background-color: #f4f5fa;
+}
+
+.success_card img {
+    width: 100%;
+    height: 230px;
+}
+
+.success_card p {
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: start;
+    font-weight: 600;
+}
+
+.success_card a {
+    position: absolute;
+    text-align: start;
+
+    display: block;
+    margin-top: 380px;
+    color: #b0a7e9;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.success_card_block_person h1 {
+    color: #000;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.success_card_block_person img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#card_modal {
+    z-index: 6;
+    display: none;
+}
+
+.success_card_block {
+    z-index: 6;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    overflow: scroll;
+    padding: 72px 40px 120px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.success_card_block_titles p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-align: start;
+    line-height: 28px;
+}
+.window{
+    width: 100%;
+    top: 0;
+    border: none;
+    padding: 20px 0;
+    left: 0;
+    background-attachment: fixed;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63, 62, 62, 0.52);
+}
+
+.success_card_block_titles h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #14161f;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+/*success*/
+/*lesson*/
+#lesson{
+    position: relative;
+    overflow: hidden;
+    padding-top: 64px;
+    width: 100%;
+    background: #000;
+    padding-bottom: 72px;
+}
+.lesson h1{
+    margin-bottom: 16px;
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 600;
+}
+.lesson_line{
+    width: 100%;
+    height: 1px;
+    background: rgba(227, 227, 227, 0.6);
+}
+.lesson_block h1{
+    margin-top: 28px;
+    margin-bottom: 24px;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+}
+.lesson_block p{
+    margin-bottom: 16px;
+    color: #8f93a3;
+    width: 540px;
+    line-height: 24px;
+    list-style-type: disc;
+}
+.lesson_box h1{
+    margin-top: 28px;
+    margin-bottom: 24px;
+    color: #ffffff;
+    font-size:28px;
+    line-height: 42px;
+    font-weight: 600;
+}
+.lesson_box{
+    margin-bottom: 140px;
+}
+.lesson_btn{
+    color: white;
+    border-bottom: 1px solid #8f93a3;
+    border-top: 1px solid #8f93a3;
+    background: black;
+}
+.lesson_btn2{
+    color: white;
+    border-bottom: 1px solid #8f93a3;
+    background: black;
+
+}
+.lesson_block_tit  {
+    margin-top: 30px;
+    color: #5b5f71;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.lesson_block h4{
+    margin-top: 70px;
+    overflow: visible;
+    width: 405px;
+    max-width: 100%;
+    color: #d4d4dd;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.lesson_block_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white ;
+    margin-top: 40px;
+    padding: 17px 0;
+    background-color: rgba(114, 94, 242, 0);
+    transition: all 400ms ease;
+    border-radius: 1000px;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;    font-weight: 600;
+
+
+}
+.lesson_block_btn:hover {
+    border-radius: 1000px;
+    background-color: #725ef2;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/*lesson*/
